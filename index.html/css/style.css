@@ -1,0 +1,64 @@
+/* Stile generale per il corpo della pagina */
+body {
+    font: 'EB Garamond'; /* Font elegante e classico */
+    margin: 100; /* Rimuove i margini di default del browser */
+    padding: 100; /* Rimuove i padding di default */
+    background-color: #ebebeb; /* Colore di sfondo grigio chiaro */
+    text-align: center; /* Allinea il testo al centro orizzontalmente */
+}
+
+/* Barra di navigazione (navbar) */
+nav {
+    background-color: #dcdcdc; /* Sfondo grigio chiaro per la navbar */
+    padding: 15px 0; /* Spazio sopra e sotto i link della navbar */
+}
+
+nav a {
+    text-decoration: none; /* Rimuove il sottolineato dai link */
+    color: #333; /* Colore testo grigio scuro */
+    margin: 0 15px; /* Spaziatura orizzontale tra i link */
+    font-weight: bold; /* Grassetto per evidenziare i link */
+    font-size: 18px; /* Dimensione del testo dei link */
+}
+
+nav a:hover {
+    color: #FFFFF0; /* Colore del link al passaggio del mouse: avorio */
+}
+
+/* Intestazione della pagina */
+header {
+    background-color: #ebebeb; /* Stesso sfondo del body */
+    color: black; /* Testo nero */
+    padding: 0px; /* Spazio interno */
+}
+
+.logo {
+    max-width: 400px; /* Larghezza massima dell'immagine logo */
+    height: auto; /* Mantiene le proporzioni corrette */
+}
+
+/* Sezioni "Chi siamo" e "Storia" */
+.about, .storia {
+    max-width: 800px; /* Larghezza massima delle sezioni */
+    margin: 20px auto; /* Spazio verticale + centramento orizzontale */
+    padding: 20px; /* Spazio interno */
+    background-color: #ffffff; /* Sfondo bianco per contrastare con il body */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombra leggera intorno al box */
+    border-radius: 8px; /* Angoli arrotondati */
+    text-align: left; /* Testo allineato a sinistra */
+}
+
+/* Titolo principale all’interno del tag <main> */
+main h1 {
+    font-size: 30px; /* Dimensione grande del titolo */
+    margin-top: 40px; /* Spazio sopra il titolo */
+    font: "EB Garamond";
+}
+/* Footer della pagina */
+footer {
+    background-color: #dcdcdc; /* Colore di sfondo simile alla navbar */
+    color: black; /* Testo nero */
+    padding: 10px; /* Spazio interno */
+    text-align: center; /* Testo centrato */
+    margin-top: 40px; /* Spazio sopra il footer */
+}
